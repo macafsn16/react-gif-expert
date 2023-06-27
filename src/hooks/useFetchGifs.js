@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getGits } from "../helpers/getGifs";
 
 
-export const useFetchGifs = ({category}) => {
+export const useFetchGifs = (category) => {
 
     const [ images, setImages ] = useState( [] );
     const [ isLoading, setIsLoading ] = useState( true );
